@@ -34,7 +34,7 @@
                                 class="fa fa-address-card fa-lg"></span> Contact</a></li>
                 </ul>
                 <span class="navbar-text">
-                    <a data-toggle="modal" data-target="#loginModal">
+                    <a id="loginLink">
                         <span class="fa fa-sign-in"></span> Login
                     </a>
                 </span>
@@ -202,7 +202,11 @@
                            
 
                     </a> -->
-                    <a data-toggle="modal" data-target="#reserveModal" role="button" type="button"
+                    <!-- <a data-toggle="modal" data-target="#reserveModal" role="button" type="button"
+                        class="btn  btn-block nav-link btn-warning">
+                        Reserve a Table
+                    </a> -->
+                    <a id='reserveLink' role="button" type="button"
                         class="btn  btn-block nav-link btn-warning">
                         Reserve a Table
                     </a>
@@ -466,6 +470,8 @@
         $(document).ready(function () {
             $('[data-toggle="tooltip"]').tooltip();
         });
+    </script>
+    <script>
     </script>
     <script src="js/main.js"></script>
 </body>
